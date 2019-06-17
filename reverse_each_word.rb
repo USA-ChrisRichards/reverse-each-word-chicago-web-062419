@@ -9,5 +9,5 @@ def reverse_each_word(sentence)
     rev_array << word.reverse 
     final_sentence = rev_array.join(" ")
   end
-  print final_sentence
+  final_sentence
 end
