@@ -21,5 +21,5 @@ def reverse_each_word(sentence)
     word.reverse 
     final_sentence = sentence_array.join(" ")
   end
-  final_sentence
+  puts final_sentence
 end
