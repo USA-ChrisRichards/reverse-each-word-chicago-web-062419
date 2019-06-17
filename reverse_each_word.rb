@@ -1,6 +1,8 @@
 #returns that same sentence with each word reversed in place.
 #1.how can we turn our string into an array?
 #2.first solve with .each, then .collect
+
+=begin
 #.each
 def reverse_each_word(sentence)
   sentence_array = sentence.split(/ /) 
@@ -12,6 +14,7 @@ def reverse_each_word(sentence)
   end
   final_sentence
 end
+=end
 
 #.collect
 def reverse_each_word(sentence)
