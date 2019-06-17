@@ -10,5 +10,5 @@ def reverse_each_word(sentence)
   rev_array = sentence_array.each { |word| word.reverse << rev_array }
     #enumerate with each to reverse each word
     
-    rev_array
+   puts rev_array
 end
