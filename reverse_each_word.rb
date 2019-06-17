@@ -20,9 +20,8 @@ end
 def reverse_each_word(sentence)
   sentence_array = sentence.split(/ /) 
   final_sentence = ""
-    sentence_array.collect do |word| 
-    final_sentence = word.reverse 
-    final_sentence = sentence_array.join(" ")
+    sentence_array.collect {|word| word.reverse}
+    puts sentence_array
   end
   puts final_sentence
 end
