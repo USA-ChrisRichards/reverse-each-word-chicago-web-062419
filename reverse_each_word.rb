@@ -3,7 +3,7 @@
 #2.first solve with .each, then .collect
 def reverse_each_word(sentence) 
   sentence_array = sentence.split(/ /) 
-  rev_array = []
+  final_sentence = ""
     sentence_array.each do |word| 
     rev_array << word.reverse 
     final_sentence = rev_array.join(" ")
