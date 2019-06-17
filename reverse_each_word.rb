@@ -22,6 +22,5 @@ def reverse_each_word(sentence)
   final_sentence = ""
     sentence_array.collect {|word| word.reverse}
     puts sentence_array
-  end
   puts final_sentence
 end
