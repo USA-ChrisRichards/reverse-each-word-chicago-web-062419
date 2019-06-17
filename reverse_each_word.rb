@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
   sentence_array = sentence.split(/ /) 
   rev_array = []
     sentence_array.each do |word| 
-    print word.reverse 
+    rev_array << word.reverse 
   end
 end
