@@ -3,4 +3,5 @@
 #2.first solve with .each, then .collect
 def reverse_each_word(sentence) 
   sentence_array = sentence.chars
+  puts sentence_array
 end
