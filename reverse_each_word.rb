@@ -4,7 +4,7 @@
 def reverse_each_word(sentence) 
     #give method a string/sentence
   
-  sentence_array = sentence.split(" ") 
+  sentence_array = sentence.split(' ') 
     #split string into array by each word
   
   rev_array = []
