@@ -12,6 +12,5 @@ def reverse_each_word(sentence)
     word.reverse << rev_array 
     #enumerate with each to reverse each word, then add to new array(rev_array)
   end
-    
    puts rev_array
 end
