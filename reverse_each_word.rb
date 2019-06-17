@@ -11,5 +11,4 @@ def reverse_each_word(sentence)
     #enumerate with each to reverse each word
     
     rev_array
-  
 end
