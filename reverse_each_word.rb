@@ -7,7 +7,8 @@ def reverse_each_word(sentence)
   sentence_array = sentence.split(" ") 
     #split string into array by each word
   
-  rev_array = sentence_array.each { |word| word.reverse << rev_array }
+  rev_array = sentence_array.each do |word| 
+    word.reverse << rev_array 
     #enumerate with each to reverse each word
     
    puts rev_array
